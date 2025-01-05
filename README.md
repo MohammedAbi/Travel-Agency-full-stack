@@ -40,7 +40,7 @@ Ensure you have the following tools installed on your machine:
 #### 1. Clone the Repository
 
 ```bash
-git clone <repository-url>
+git clone <https://github.com/MohammedAbi/Travel-Agency-fullstack.git>
 
 cd frontend
 ```
@@ -102,7 +102,6 @@ The backend exposes the following API endpoints:
 
 - Destinations: The frontend fetches data from http://localhost:8080/api/destinations to display popular destinations.
 - Testimonials: The frontend fetches data from http://localhost:8080/api/testimonials to display customer feedback.
-
 
 ## Credits
 
