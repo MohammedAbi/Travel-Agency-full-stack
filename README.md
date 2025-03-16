@@ -32,7 +32,7 @@ Please note that the following features are still under development:
 
 
 **Hosted On netlify:**  
-[application-cca](https://currency-converter-application-cca.netlify.app/)
+[application-cca](https://travel-agency-full-stack-am.netlify.app/)
 
 **GitHub Repository:**  
 [GitHub repo](https://github.com/MohammedAbi/Travel-Agency-full-stack)
