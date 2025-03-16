@@ -1,5 +1,10 @@
 # Travel Agency Website
 
+
+<img width="1510" alt="Image" src="https://github.com/user-attachments/assets/a7296883-90ab-4792-aaec-f95ce054c925" />
+The image displays the user interface of a full-stack travel agency website, The interface is clean & user-friendly.
+
+
 This is a full-stack travel agency website built with React for the frontend and Node.js/Express for the backend. It provides an intuitive platform for booking various travel services, exploring popular destinations, and viewing customer testimonials.
 
 ## Features
