@@ -77,7 +77,7 @@ The backend API runs on port 8080 by default. Ensure that the backend is running
    - In the backend directory, run the following command:
 
 ```bash
-npm run backend
+npm run dev
 ```
 
 This will start the backend server using nodemon for hot-reloading.
@@ -86,7 +86,7 @@ This will start the backend server using nodemon for hot-reloading.
    - In the frontend directory, run the following command:
 
 ```bash
-npm run frontend
+npm run dev
 ```
 
 This will start the Vite development server and open the frontend application in your browser.
