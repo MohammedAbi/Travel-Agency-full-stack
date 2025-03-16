@@ -5,7 +5,6 @@
 The image displays the user interface of a full-stack travel agency website, The interface is clean & user-friendly.
 
 
-
 This is a full-stack travel agency website built with React for the frontend and Node.js/Express for the backend. It provides an intuitive platform for booking various travel services, exploring popular destinations, and viewing customer testimonials.
 
 ## Features
@@ -30,6 +29,14 @@ Please note that the following features are still under development:
 - **Contact Form**: The contact form is not yet functional. Users cannot submit inquiries or feedback through the website.
 
 - **API Handling**: The API endpoints for fetching destinations and testimonials are in place, but error handling and validation are not yet fully implemented. Users may encounter issues when interacting with these features.
+
+
+**Hosted On netlify:**  
+[application-cca](https://currency-converter-application-cca.netlify.app/)
+
+**GitHub Repository:**  
+[GitHub repo](https://github.com/MohammedAbi/Travel-Agency-full-stack)
+
 
 ## Getting Started
 
