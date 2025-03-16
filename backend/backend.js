@@ -1,9 +1,14 @@
 import express from "express";
-const app = express();
 import cors from "cors";
+import path from "path";  
 
+const app = express();
 const PORT = process.env.PORT || 8080;
+
 app.use(cors());
+
+// Serve static files (e.g., images) from the 'public' folder
+app.use(express.static(path.join(__dirname, 'public')));
 
 const destinations = [
   {
