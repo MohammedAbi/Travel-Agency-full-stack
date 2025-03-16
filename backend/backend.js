@@ -1,14 +1,19 @@
 import express from "express";
 import cors from "cors";
-import path from "path";  
+import path from "path";
+import { fileURLToPath } from "url"; 
 
 const app = express();
 const PORT = process.env.PORT || 8080;
 
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+
 app.use(cors());
 
 // Serve static files (e.g., images) from the 'public' folder
-app.use(express.static(path.join(__dirname, 'public')));
+app.use(express.static(path.join(__dirname, "public")));
 
 const destinations = [
   {
@@ -61,6 +66,7 @@ const testimonials = [
 app.get("/api/destinations", (req, res) => {
   res.json(destinations);
 });
+
 app.get("/api/testimonials", (req, res) => {
   res.json(testimonials);
 });
